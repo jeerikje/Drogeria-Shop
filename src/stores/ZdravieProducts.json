@@ -1,0 +1,98 @@
+[
+  {
+    "id": 25,
+    "name": "Elektrická zubná kefka iO Series 2, Black, 1 ks",
+    "price": 59.95,
+    "image": "/src/assets/Obrazky/KefkaB.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 26,
+    "name": "Elektrická zubná kefka iO Series 2, Pink, 1 ks",
+    "price": 59.95,
+    "image": "/src/assets/Obrazky/KefkaR.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 27,
+    "name": "Zubná pasta Sensitive - duopack, 150 ml",
+    "price": 7.95,
+    "image": "/src/assets/Obrazky/pasta1.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 28,
+    "name": "Zubná pasta s fluoridom Extra Whitening - 2 x 75, 150 ml",
+    "price": 5.50,
+    "image": "/src/assets/Obrazky/pasta2.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 29,
+    "name": "Zubná pasta Whitening - 2 x 75 ml, 150 ml",
+    "price": 5.55,
+    "image": "/src/assets/Obrazky/pasta3.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 30,
+    "name": "Nevoskovaná dentálna niť- špáradlo, 40 ks",
+    "price": 0.95,
+    "image": "/src/assets/Obrazky/nit.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 31,
+    "name": "Medzizubné kefky mikro jemné, 32 ks",
+    "price": 2.45,
+    "image": "/src/assets/Obrazky/kefky.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 32,
+    "name": "Maska na spanie Cozy Frozy Me Time, 1 ks",
+    "price": 3.70,
+    "image": "/src/assets/Obrazky/maskanaspanie.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 33,
+    "name": "Multivitamínové medvedíky pre deti, 60 ks",
+    "price": 3.45,
+    "image": "/src/assets/Obrazky/vitaminy.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 34,
+    "name": "Kapsuly Komplex na vitálne vlasy, 26 g",
+    "price": 2.60,
+    "image": "/src/assets/Obrazky/kapsuly.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 35,
+    "name": "Tablety 2-fázová laktáza 18 000, 20 g",
+    "price": 9.45,
+    "image": "/src/assets/Obrazky/laktaza.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 36,
+    "name": "Šumivé tablety magnézium citrón, 82 g",
+    "price": 1.15,
+    "image": "/src/assets/Obrazky/magnezium.png",
+    "maxAmount": 10,
+    "quantity": 0
+  }
+]

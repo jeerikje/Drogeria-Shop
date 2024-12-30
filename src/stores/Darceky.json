@@ -1,0 +1,42 @@
+[
+  {
+    "id": 61,
+    "name": "Bezdotykový dávkovač mydla a mydlo No-Touch, 250 ml",
+    "price": 11.95,
+    "image": "/src/assets/Obrazky/gloss.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 62,
+    "name": "Plienky veľkosť 1 (2 - 5 kg) mesačné balenie, 156 ks",
+    "price": 27.95,
+    "image": "/src/assets/Obrazky/balenie.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 63,
+    "name": "Mliečny nápoj pre malé deti Comfort 3, 5 HMO, 800 g",
+    "price": 16.95,
+    "image": "/src/assets/Obrazky/darcekovasuprava.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 64,
+    "name": "Vatové tyčinky s ochrannou zónou, 72 ks",
+    "price": 0.95,
+    "image": "/src/assets/Obrazky/darcekovebalenie.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 65,
+    "name": "Umývací prostriedok na detské potreby, 500 ml",
+    "price": 3.95,
+    "image": "/src/assets/Obrazky/darcekovyset.png",
+    "maxAmount": 10,
+    "quantity": 0
+  }
+]

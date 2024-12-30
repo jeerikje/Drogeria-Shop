@@ -1,0 +1,98 @@
+[
+  {
+    "id": 13,
+    "name": "Pánsky dezodorant v spreji Whitewater, 300 ml",
+    "price": 1.19,
+    "image": "/src/assets/Obrazky/whitewater.jpg",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 14,
+    "name": "Voda po holení Fresh, 100 ml",
+    "price": 1.69,
+    "image": "/src/assets/Obrazky/poholeni.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 15,
+    "name": "Holiaci strojček na tvár a telo OneBLade",
+    "price": 1.80,
+    "image": "/src/assets/Obrazky/holiaci.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 16,
+    "name": "Pánsky antiperspirant v spreji",
+    "price": 4.58,
+    "image": "/src/assets/Obrazky/antipers.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 17,
+    "name": "Náhradné holiace hlavice OneBlade",
+    "price": 1.99,
+    "image": "/src/assets/Obrazky/nahradne.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 18,
+    "name": "Tuhý dezodorant Wolfthorn, 50ml",
+    "price": 2.70,
+    "image": "/src/assets/Obrazky/wolfnieco.jpg",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 19,
+    "name": "Jednorazový holiaci strojček",
+    "price": 3.39,
+    "image": "/src/assets/Obrazky/Jednorazovy.jpg",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 20,
+    "name": "Darčekové balenie Jungle Fresh",
+    "price": 2.69,
+    "image": "/src/assets/Obrazky/JungleFresh.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 21,
+    "name": "Darčekové balenie Keep It Active, 1 ks",
+    "price": 2.69,
+    "image": "/src/assets/Obrazky/active.png",
+    "maxAmount": 10,
+    "quantity": 0
+  },
+  {
+    "id": 22,
+    "name": "Pánska kolínska voda Jordan, 100 ml",
+    "price": 2.69,
+    "image": "/src/assets/Obrazky/kolinska.png",
+    "maxAmount": 10,
+    "quantity": 0
+  }
+  ,{
+  "id": 23,
+  "name": "Pánsky guľôčkový dezodorant Sensitive 24H, 50 ml",
+  "price": 2.69,
+  "image": "/src/assets/Obrazky/gulockovy.png",
+  "maxAmount": 10,
+  "quantity": 0
+  },
+  {
+    "id": 24,
+    "name": "Pánsky guľôčkový dezodorant Sensitive 24H, 50 ml",
+    "price": 2.69,
+    "image": "/src/assets/Obrazky/3v1.png",
+    "maxAmount": 10,
+    "quantity": 0
+  }
+]
