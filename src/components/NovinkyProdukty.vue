@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 export default {
   name: "NovinkyProdukty",
   props: {
@@ -31,4 +31,85 @@ export default {
 
 <style scoped>
 
+.products-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #34495e;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-bottom: 4px solid #bc1a1a;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.product-card {
+  background: linear-gradient(135deg, #9c70af,#5a30a5, #eac3f5, #5a30a5,#eac3f5);
+  border: 2px solid #00f4f4;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+  width: 100%;
+  max-height: 220px;
+  object-fit: contain;
+}
+
+.product-card h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.product-card p {
+  font-size: 1.3rem;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.quantity-info {
+  font-size: 1rem;
+  color: #00f4f4;
+  margin-bottom: 20px;
+}
+
+.quantity-info .out-of-stock {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.add-to-cart-btn {
+  background: #1abc9c;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  background: #16a085;
+  transform: scale(1.05);
+}
+
+.add-to-cart-btn:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+}
 </style>

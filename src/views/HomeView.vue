@@ -1,10 +1,17 @@
-<script>
+<script lang="ts">
+
+import banner from '@/components/banner.vue'
+import Footer from '@/components/Footer.vue'
 export default {
   name: "HomeView",
+  components: {banner,Footer},
+  data(){
+    return{
+      bannerImage: "/src/assets/Obrazky/banner.png",
+      bannerText: "Vítajte v našej drogérii. U nás nájdete široký výber produktov pre každodennú hygienu, krásu a zdravie"
+    }
+  },
   methods: {
-    registracia(){
-      this.$router.push("/registracia");
-    },
     parfumy(){
       this.$router.push("/parfumy");
     },
@@ -23,15 +30,7 @@ export default {
 </script>
 
 <template>
-  <div class="homepage-container">
-    <section class="hero-banner">
-      <div class="hero-content">
-        <h1>Srdečne vás vítame na našej stránke! Sme šťastní, že ste tu s nami.</h1>
-
-        <p>Objavte tie najlepšie produkty pre vás, vaše telo a vašu pokožku..</p>
-        <button @click="registracia" class="shop-now-btn">Zaregistruj sa!</button>
-      </div>
-    </section>
+  <banner :bannerImage="bannerImage" :bannerText="bannerText"/>
 
     <section class="categories-section">
       <h2>Nezmeškajte naše novinky</h2>
@@ -54,32 +53,10 @@ export default {
         </div>
       </div>
     </section>
-
-    <section class="cta-section">
-      <h2>Exclusive Offers Just for You</h2>
-      <p>Sign up now and get 10% off your first order!</p>
-      <button class="sign-up-btn">Sign Up</button>
-    </section>
-  </div>
+  <Footer/>
 </template>
 <style>
-.homepage-container {
-  font-family: Arial, sans-serif;
-}
 
-.hero-banner {
-  background-image: url('/src/assets/Obrazky/banner.png');
-  background-size: cover;
-  background-position: center;
-  color: white;
-  text-align: center;
-  padding: 5rem 3rem;
-}
-
-.hero-content {
-  max-width: 800px;
-  margin: 0 auto;
-}
 
 .hero-content h1 {
   font-size: 2.5rem;
@@ -90,22 +67,6 @@ export default {
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
-
-.shop-now-btn {
-  padding: 1rem 2rem;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 0.25rem;
-  font-size: 1.2rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.shop-now-btn:hover {
-  background-color: #0056b3;
-}
-
 
 .categories-section {
   padding: 2rem 1rem;
@@ -146,39 +107,6 @@ export default {
 .category-card h3 {
   font-size: 1.2rem;
   color: #333;
-}
-
-.cta-section {
-  background-color: #28a745;
-  color: white;
-  text-align: center;
-  padding: 2rem 1rem;
-}
-
-.cta-section h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.cta-section p {
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
-}
-
-.sign-up-btn {
-  padding: 0.75rem 2rem;
-  font-size: 1rem;
-  background-color: white;
-  color: #28a745;
-  border: none;
-  border-radius: 0.25rem;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.sign-up-btn:hover {
-  background-color: #218838;
-  color: white;
 }
 
 </style>

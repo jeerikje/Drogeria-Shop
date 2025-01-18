@@ -1,11 +1,20 @@
-<script>
+<script lang="ts">
 import { mapState, mapActions } from "pinia";
-import { useCartStore } from "@/stores/CartStore";
+import { useCartStore } from "@/stores/CartStore.ts";
+
 import Produkty from "@/components/Produkty.vue";
+import banner from '@/components/banner.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: "zvierata",
-  components: {Produkty},
+  components: {Produkty,banner,Footer},
+  data(){
+    return {
+      bannerImage: "/src/assets/Obrazky/AnimalBanner.png",
+      bannerText: "Vyberte si z našej ponuky kvalitných krmív pre vašich miláčikov, ktoré spĺňajú všetky ich nutričné potreby."
+    }
+  },
   computed: {
     ...mapState(useCartStore, {
       zvierataProducts: (state) => state.products.zvierata,
@@ -22,8 +31,9 @@ export default {
 </script>
 
 <template>
+  <banner :bannerImage="bannerImage" :bannerText="bannerText"/>
   <div class="products-container">
-    <h1>Zdravie produkty</h1>
+    <h1>Chovateľské potreby</h1>
     <div v-if="zvierataProducts.length" class="products">
       <Produkty
           v-for="produkt in zvierataProducts"
@@ -33,6 +43,7 @@ export default {
       />
     </div>
   </div>
+  <Footer/>
 </template>
 
 <style scoped>

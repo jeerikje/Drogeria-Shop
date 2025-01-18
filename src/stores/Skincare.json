@@ -1,0 +1,42 @@
+[
+  {
+    "id": 76,
+    "name": "Masážny kameň z ruženínu Gua-Sha, 1 ks",
+    "price": 7.95,
+    "image": "/src/assets/Obrazky/skincare1.png",
+    "maxAmount": 5,
+    "quantity": 0
+  },
+  {
+    "id": 77,
+    "name": "Denný a nočný pleťový krém Hyaluron 7 %, 100 ml",
+    "price": 15.95,
+    "image": "/src/assets/Obrazky/skincare2.png",
+    "maxAmount": 6,
+    "quantity": 0
+  },
+  {
+    "id": 78,
+    "name": "Pleťové sérum Vitamin C, 30 ml",
+    "price": 5.95,
+    "image": "/src/assets/Obrazky/skincare3.png",
+    "maxAmount": 6,
+    "quantity": 0
+  },
+  {
+    "id": 79,
+    "name": "Textilná pleťová maska Vitamin C, 1 ks",
+    "price": 1.05,
+    "image": "/src/assets/Obrazky/skincare4.png",
+    "maxAmount": 2,
+    "quantity": 0
+  },
+  {
+    "id": 80,
+    "name": "Pleťové sérum Beauty Collagen Retinol, 30 ml",
+    "price": 5.95,
+    "image": "/src/assets/Obrazky/skincare5.png",
+    "maxAmount": 2,
+    "quantity": 0
+  }
+]

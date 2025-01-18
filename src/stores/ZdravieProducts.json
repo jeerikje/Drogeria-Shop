@@ -25,7 +25,7 @@
   },
   {
     "id": 28,
-    "name": "Zubná pasta s fluoridom Extra Whitening - 2 x 75, 150 ml",
+    "name": "Zubná pasta s Sensodyne, 150 ml",
     "price": 5.50,
     "image": "/src/assets/Obrazky/pasta2.png",
     "maxAmount": 10,
@@ -33,7 +33,7 @@
   },
   {
     "id": 29,
-    "name": "Zubná pasta Whitening - 2 x 75 ml, 150 ml",
+    "name": "Zubná pasta Whitening, 150 ml",
     "price": 5.55,
     "image": "/src/assets/Obrazky/pasta3.png",
     "maxAmount": 10,
@@ -65,7 +65,7 @@
   },
   {
     "id": 33,
-    "name": "Multivitamínové medvedíky pre deti, 60 ks",
+    "name": "Multivitamínové medvedíky, 60 ks",
     "price": 3.45,
     "image": "/src/assets/Obrazky/vitaminy.png",
     "maxAmount": 10,
@@ -89,7 +89,7 @@
   },
   {
     "id": 36,
-    "name": "Šumivé tablety magnézium citrón, 82 g",
+    "name": "Šumivé tablety magnézium, 82 g",
     "price": 1.15,
     "image": "/src/assets/Obrazky/magnezium.png",
     "maxAmount": 10,

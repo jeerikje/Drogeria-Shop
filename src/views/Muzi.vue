@@ -1,11 +1,20 @@
-<script>
+<script lang="ts">
 import { mapState, mapActions } from "pinia";
-import { useCartStore } from "@/stores/CartStore";
+import { useCartStore } from "@/stores/CartStore.ts";
+
 import Produkty from "@/components/Produkty.vue";
+import banner from '@/components/banner.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: "muzi",
-  components: {Produkty},
+  components: {Produkty,banner,Footer},
+  data(){
+    return {
+      bannerImage: "/src/assets/Obrazky/ManBanner.png",
+      bannerText: "Ponúkame všetko, čo moderný muž potrebuje. Od kvalitných holiacich potrieb cez produkty o starostlivosť o telo a pleť"
+    }
+  },
   computed: {
     ...mapState(useCartStore,{
       muziProducts: (state) => state.products.muzi,
@@ -21,8 +30,9 @@ export default {
 </script>
 
 <template>
+  <banner :bannerImage="bannerImage" :bannerText="bannerText"/>
   <div class="products-container">
-    <h1>Zdravie produkty</h1>
+    <h1>Pánska kozmetika a starostlivosť</h1>
     <div v-if="muziProducts.length" class="products">
       <Produkty
           v-for="produkt in muziProducts"
@@ -32,6 +42,7 @@ export default {
       />
     </div>
   </div>
+  <Footer/>
 </template>
 
 <style scoped>

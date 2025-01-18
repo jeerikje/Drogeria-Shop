@@ -1,97 +1,97 @@
 [
   {
     "id": 49,
-    "name": "Telový krém Urea Cica Repair+, 400 ml",
-    "price": 1.19,
+    "name": "Krmivo pre mačky s kuracím mäsom junior, 500 g",
+    "price": 2.95,
     "image": "/src/assets/Obrazky/granuleM.png",
     "maxAmount": 10,
     "quantity": 0
   },
   {
     "id": 50,
-    "name": "Telový krém Panthenol Comfort, 400 ml",
-    "price": 1.69,
+    "name": "Krmivo pre mačky hovädzie mäso v omáčke, 415 g",
+    "price": 0.95,
     "image": "/src/assets/Obrazky/hovadzie.png",
     "maxAmount": 10,
     "quantity": 0
   },
   {
     "id": 51,
-    "name": "Dámske jednorazové holiace strojčeky Colors, 6 ks",
-    "price": 1.80,
+    "name": "Krmivo pre mačky hydina s pečienkou v omáčke, 415 g",
+    "price": 0.95,
     "image": "/src/assets/Obrazky/hydina.png",
     "maxAmount": 10,
     "quantity": 0
   },
   {
     "id": 52,
-    "name": "Rozjasňujúci čistiaci pleťový krém Vitamin C, 250 ml",
-    "price": 4.58,
+    "name": "Krmivo pre mačky kuracie mäso v omáčke, 415 g",
+    "price": 0.95,
     "image": "/src/assets/Obrazky/kuracie.png",
     "maxAmount": 10,
     "quantity": 0
   },
   {
     "id": 53,
-    "name": "Dámsky antiperspirant v spreji original, 300 ml",
-    "price": 1.99,
+    "name": "Krmivo pre mačky morčacie mäso v omáčke, 415 g",
+    "price": 0.95,
     "image": "/src/assets/Obrazky/morcacie.png",
     "maxAmount": 10,
     "quantity": 0
   },
   {
     "id": 54,
-    "name": "Peelingová masážna špongia, 1 ks",
-    "price": 2.70,
+    "name": "Krmivo pre mačiatka v miske kuracie mäso, 100 g",
+    "price": 0.45,
     "image": "/src/assets/Obrazky/kap.png",
     "maxAmount": 10,
     "quantity": 0
   },
   {
     "id": 55,
-    "name": "Krém na ruky warm wishes, 30 ml",
-    "price": 3.39,
+    "name": "Enzymatický odstraňovač škvŕn a zápachu, 750 ml",
+    "price": 8.95,
     "image": "/src/assets/Obrazky/sprej.png",
     "maxAmount": 10,
     "quantity": 0
   },
   {
     "id": 56,
-    "name": "Textilná pleťová maska Magical Wishes, 1 ks",
-    "price": 2.69,
+    "name": "Chrumkavé placky pre vášho miláčika, 500 g  ",
+    "price": 1.65,
     "image": "/src/assets/Obrazky/placky.png",
     "maxAmount": 10,
     "quantity": 0
   },
   {
     "id": 57,
-    "name": "Tekuté krémové mydlo Warm Wishes, 500 ml",
-    "price": 2.69,
+    "name": "Krmivo pre psy Naturverliebt 60 % mäso z diviny, 400 g",
+    "price": 1.35,
     "image": "/src/assets/Obrazky/ps.png",
     "maxAmount": 10,
     "quantity": 0
   },
   {
     "id": 58,
-    "name": "Soľ do kúpeľa Magical Wishes, 80 g",
-    "price": 2.69,
+    "name": "Krmivo pre psy s hydinovým mäsom, srdcia, 400 g",
+    "price": 1.15,
     "image": "/src/assets/Obrazky/p.png",
     "maxAmount": 10,
     "quantity": 0
   },
   {
     "id": 59,
-    "name": "Epilátor na tvár, 1 ks",
-    "price": 2.69,
-    "image": "/src/assets/Obrazky/epilator.png",
+    "name": "Žuvacie uzly obalené kuracím mäsom, 7 ks",
+    "price": 3.45,
+    "image": "/src/assets/Obrazky/uzly.png",
     "maxAmount": 10,
     "quantity": 0
   },
   {
     "id": 60,
-    "name": "Náplasti proti vyrážkam a akné, 36 ks",
-    "price": 2.69,
-    "image": "/src/assets/Obrazky/naplast.jpg",
+    "name": "Dentálne tyčinky pre psy, 203 g",
+    "price": 1.15,
+    "image": "/src/assets/Obrazky/tycinky.png",
     "maxAmount": 10,
     "quantity": 0
   }

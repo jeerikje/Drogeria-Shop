@@ -7,6 +7,8 @@ import zvierataProducts from '@/stores/zvierataProducts.json';
 
 import darcekyProducts from '@/stores/darceky.json'
 import parfumyProducts from '@/stores/parfumy.json'
+import kozmetikaProducts from '@/stores/kozmetika.json'
+import skincareProducts from '@/stores/skincare.json'
 
 const MAX_CART_QUANTITY = 10;
 
@@ -20,6 +22,8 @@ export const useCartStore = defineStore('CartStore', {
       zvierata: zvierataProducts,
       parfumy: parfumyProducts,
       darceky: darcekyProducts,
+      kozmetika: kozmetikaProducts,
+      skincare: skincareProducts,
     },
     cart: [],
   }),

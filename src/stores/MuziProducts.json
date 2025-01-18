@@ -18,7 +18,7 @@
   {
     "id": 15,
     "name": "Holiaci strojček na tvár a telo OneBLade",
-    "price": 1.80,
+    "price": 20.80,
     "image": "/src/assets/Obrazky/holiaci.png",
     "maxAmount": 10,
     "quantity": 0
@@ -26,7 +26,7 @@
   {
     "id": 16,
     "name": "Pánsky antiperspirant v spreji",
-    "price": 4.58,
+    "price": 1.58,
     "image": "/src/assets/Obrazky/antipers.png",
     "maxAmount": 10,
     "quantity": 0
@@ -34,7 +34,7 @@
   {
     "id": 17,
     "name": "Náhradné holiace hlavice OneBlade",
-    "price": 1.99,
+    "price": 4.10,
     "image": "/src/assets/Obrazky/nahradne.png",
     "maxAmount": 10,
     "quantity": 0
@@ -42,7 +42,7 @@
   {
     "id": 18,
     "name": "Tuhý dezodorant Wolfthorn, 50ml",
-    "price": 2.70,
+    "price": 1.50,
     "image": "/src/assets/Obrazky/wolfnieco.jpg",
     "maxAmount": 10,
     "quantity": 0
@@ -50,7 +50,7 @@
   {
     "id": 19,
     "name": "Jednorazový holiaci strojček",
-    "price": 3.39,
+    "price": 2.50,
     "image": "/src/assets/Obrazky/Jednorazovy.jpg",
     "maxAmount": 10,
     "quantity": 0
@@ -58,7 +58,7 @@
   {
     "id": 20,
     "name": "Darčekové balenie Jungle Fresh",
-    "price": 2.69,
+    "price": 6.50,
     "image": "/src/assets/Obrazky/JungleFresh.png",
     "maxAmount": 10,
     "quantity": 0
@@ -66,7 +66,7 @@
   {
     "id": 21,
     "name": "Darčekové balenie Keep It Active, 1 ks",
-    "price": 2.69,
+    "price": 10.10,
     "image": "/src/assets/Obrazky/active.png",
     "maxAmount": 10,
     "quantity": 0
@@ -74,7 +74,7 @@
   {
     "id": 22,
     "name": "Pánska kolínska voda Jordan, 100 ml",
-    "price": 2.69,
+    "price": 3.70,
     "image": "/src/assets/Obrazky/kolinska.png",
     "maxAmount": 10,
     "quantity": 0

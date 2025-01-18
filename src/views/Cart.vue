@@ -1,6 +1,6 @@
-<script>
+<script lang="ts">
 import { mapState, mapActions } from "pinia";
-import { useCartStore } from "@/stores/CartStore";
+import { useCartStore } from "@/stores/CartStore.ts";
 
 export default {
   name: "CartPage",
@@ -14,6 +14,7 @@ export default {
 </script>
 
 <template>
+  <p>Celkova cena: {{totalPrice.toFixed(2)}}€</p>
   <div v-for="item in cart" :key="item.id" class="cart-item">
     <img :src="item.image" :alt="item.name" class="cart-item-image" />
     <span>{{ item.name }}</span>
@@ -25,11 +26,9 @@ export default {
     </div>
     <button @click="removeFromCart(item.id)">Remove</button>
   </div>
-
 </template>
 
 <style scoped>
-
 .cart-item {
   display: flex;
   align-items: center;
@@ -76,7 +75,6 @@ export default {
   gap: 10px;
 }
 
-/* pridaj/uber */
 button {
   padding: 5px 10px;
   font-size: 1rem;
@@ -95,11 +93,10 @@ button:hover {
 }
 
 
-/* celkova cena */
 p {
   font-size: 1.2rem;
   font-weight: 600;
-  margin-top: 20px;
+  margin-top: 150px;
   color: #000000;
 }
 

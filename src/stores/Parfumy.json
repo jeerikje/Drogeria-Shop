@@ -1,42 +1,42 @@
 [
   {
     "id": 71,
-    "name": "Bezdotykový dávkovač mydla a mydlo No-Touch, 250 ml",
-    "price": 11.95,
+    "name": "Dámska parfumovaná voda thank u next, 30 ml",
+    "price": 36.95,
     "image": "/src/assets/Obrazky/parfum1.png",
-    "maxAmount": 10,
+    "maxAmount": 1,
     "quantity": 0
   },
   {
     "id": 72,
-    "name": "Plienky veľkosť 1 (2 - 5 kg) mesačné balenie, 156 ks",
-    "price": 27.95,
+    "name": "Dámska parfumovaná voda Sweet Like Candy, 30 ml",
+    "price": 36.95,
     "image": "/src/assets/Obrazky/parfum2.png",
-    "maxAmount": 10,
+    "maxAmount": 3,
     "quantity": 0
   },
   {
     "id": 73,
-    "name": "Mliečny nápoj pre malé deti Comfort 3, 5 HMO, 800 g",
-    "price": 16.95,
+    "name": "Dámska parfumovaná voda Spirit od white vanilla, 30 ml",
+    "price": 5.45,
     "image": "/src/assets/Obrazky/parfum3.png",
-    "maxAmount": 10,
+    "maxAmount": 3,
     "quantity": 0
   },
   {
     "id": 74,
-    "name": "Vatové tyčinky s ochrannou zónou, 72 ks",
-    "price": 0.95,
+    "name": "Pánska voňavka Signature White, 100 ml",
+    "price": 26.95,
     "image": "/src/assets/Obrazky/parfum4.png",
-    "maxAmount": 10,
+    "maxAmount": 8,
     "quantity": 0
   },
   {
     "id": 75,
-    "name": "Umývací prostriedok na detské potreby, 500 ml",
-    "price": 3.95,
+    "name": "Pánska voňavka Pour Homme, 50 ml",
+    "price": 29.95,
     "image": "/src/assets/Obrazky/parfum5.png",
-    "maxAmount": 10,
+    "maxAmount": 7,
     "quantity": 0
   }
 ]

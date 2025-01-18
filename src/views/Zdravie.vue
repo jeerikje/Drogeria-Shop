@@ -1,11 +1,20 @@
-<script>
+<script lang="ts">
 import { mapState, mapActions } from "pinia";
-import { useCartStore } from "@/stores/CartStore";
+import { useCartStore } from "@/stores/CartStore.ts";
+
 import Produkty from "@/components/Produkty.vue";
+import banner from '@/components/banner.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: "zdravie",
-  components: {Produkty},
+  components: {Produkty,banner,Footer},
+  data(){
+    return {
+      bannerImage: "/src/assets/Obrazky/HealthBanner.png",
+      bannerText: "Objavte širokú ponuku produktov na podporu vášho zdravia a pohody. Nájdete u nás vitamíny, minerály, doplnky stravy, produkty pre starostlivosť o telo, aj špeciálne riešenia na posilnenie imunity či regeneráciu."
+    }
+  },
   computed: {
     ...mapState(useCartStore, {
       zdravieProducts: (state) => state.products.zdravie,
@@ -21,8 +30,9 @@ export default {
 </script>
 
 <template>
+  <banner :bannerImage="bannerImage" :bannerText="bannerText"/>
   <div class="products-container">
-    <h1>Zdravie produkty</h1>
+    <h1>Starostlivosť o zdravie</h1>
     <div v-if="zdravieProducts.length" class="products">
       <Produkty
           v-for="produkt in zdravieProducts"
@@ -32,6 +42,7 @@ export default {
       />
     </div>
   </div>
+  <Footer/>
 </template>
 
 <style scoped>

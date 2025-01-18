@@ -1,13 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Cart from '../components/Cart.vue';
+import Cart from '../views/Cart.vue';
 import HomeView from '../views/HomeView.vue'
-import MuziView from '../components/Muzi.vue'
-import ZenyView from '../components/Zeny.vue'
-import DetiView from '../components/Deti.vue'
-import ZdravieView from '../components/Zdravie.vue'
-import ZvierataView from '../components/Zvierata.vue'
+import MuziView from '../views/Muzi.vue'
+import ZenyView from '../views/Zeny.vue'
+import DetiView from '../views/Deti.vue'
+import ZdravieView from '../views/Zdravie.vue'
+import ZvierataView from '../views/Zvierata.vue'
 import registracia from '../views/SignUpView.vue'
+
+import darcekyView from '../views/DarcekyView.vue'
+import kozmetikaView from '../views/KozmetikaView.vue'
+import parfumyView from '../views/ParfumyView.vue'
+import skincareView from '../views/SkincareView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -48,9 +53,24 @@ const router = createRouter({
       component: Cart,
     },
     {
-      path: '/registracia',
-      name: 'registracia',
-      component: registracia,
+      path: '/darceky',
+      name: 'darceky',
+      component: darcekyView,
+    },
+    {
+      path: '/parfumy',
+      name: 'parfumy',
+      component: parfumyView,
+    },
+    {
+      path: '/skincare',
+      name: 'skincare',
+      component: skincareView,
+    },
+    {
+      path: '/kozmetika',
+      name: 'kozmetika',
+      component: kozmetikaView,
     }
   ],
 })

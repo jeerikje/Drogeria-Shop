@@ -1,42 +1,42 @@
 [
   {
     "id": 66,
-    "name": "Bezdotykový dávkovač mydla a mydlo No-Touch, 250 ml",
-    "price": 11.95,
+    "name": "Maskara Lash Sensational Sky High - Cosmic Black, 7,2 ml",
+    "price": 12.95,
     "image": "/src/assets/Obrazky/maskara.png",
-    "maxAmount": 10,
+    "maxAmount": 3,
     "quantity": 0
   },
   {
     "id": 67,
-    "name": "Plienky veľkosť 1 (2 - 5 kg) mesačné balenie, 156 ks",
-    "price": 27.95,
+    "name": "Maskara Panorama Volume Million Lashes - Black, 10,5 ml",
+    "price": 13.95,
     "image": "/src/assets/Obrazky/maskara2.png",
-    "maxAmount": 10,
+    "maxAmount": 5,
     "quantity": 0
   },
   {
     "id": 68,
-    "name": "Mliečny nápoj pre malé deti Comfort 3, 5 HMO, 800 g",
-    "price": 16.95,
+    "name": "Fixačný sprej Infallible 3 Second Setting Mist, 75 ml",
+    "price": 11.95,
     "image": "/src/assets/Obrazky/Mist.png",
-    "maxAmount": 10,
+    "maxAmount": 5,
     "quantity": 0
   },
   {
     "id": 69,
-    "name": "Vatové tyčinky s ochrannou zónou, 72 ks",
-    "price": 0.95,
+    "name": "Make-up HD Liquid Coverage - 010 Light Beige, 30 ml",
+    "price": 7.95,
     "image": "/src/assets/Obrazky/ksicht.png",
-    "maxAmount": 10,
+    "maxAmount": 3,
     "quantity": 0
   },
   {
     "id": 70,
-    "name": "Umývací prostriedok na detské potreby, 500 ml",
-    "price": 3.95,
+    "name": "Farba na obočie Brow Tint - tmavohnedá, 17 ml",
+    "price": 9.95,
     "image": "/src/assets/Obrazky/farba.png",
-    "maxAmount": 10,
+    "maxAmount": 7,
     "quantity": 0
   }
 ]

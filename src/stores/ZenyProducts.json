@@ -2,7 +2,7 @@
   {
     "id": 37,
     "name": "Telový krém Urea Cica Repair+, 400 ml",
-    "price": 1.19,
+    "price": 5.50,
     "image": "/src/assets/Obrazky/telovyC.png",
     "maxAmount": 10,
     "quantity": 0
@@ -10,7 +10,7 @@
   {
     "id": 38,
     "name": "Telový krém Panthenol Comfort, 400 ml",
-    "price": 1.69,
+    "price": 5.70,
     "image": "/src/assets/Obrazky/telovyF.png",
     "maxAmount": 10,
     "quantity": 0
@@ -18,7 +18,7 @@
   {
     "id": 39,
     "name": "Dámske jednorazové holiace strojčeky Colors, 6 ks",
-    "price": 1.80,
+    "price": 4.90,
     "image": "/src/assets/Obrazky/jednorazove.png",
     "maxAmount": 10,
     "quantity": 0
@@ -26,7 +26,7 @@
   {
     "id": 40,
     "name": "Rozjasňujúci čistiaci pleťový krém Vitamin C, 250 ml",
-    "price": 4.58,
+    "price": 9.80,
     "image": "/src/assets/Obrazky/garnier.png",
     "maxAmount": 10,
     "quantity": 0
@@ -58,7 +58,7 @@
   {
     "id": 44,
     "name": "Textilná pleťová maska Magical Wishes, 1 ks",
-    "price": 2.69,
+    "price": 0.50,
     "image": "/src/assets/Obrazky/maska.png",
     "maxAmount": 10,
     "quantity": 0
@@ -66,7 +66,7 @@
   {
     "id": 45,
     "name": "Tekuté krémové mydlo Warm Wishes, 500 ml",
-    "price": 2.69,
+    "price": 3.40,
     "image": "/src/assets/Obrazky/tekute.png",
     "maxAmount": 10,
     "quantity": 0
@@ -74,7 +74,7 @@
   {
     "id": 46,
     "name": "Soľ do kúpeľa Magical Wishes, 80 g",
-    "price": 2.69,
+    "price": 2.20,
     "image": "/src/assets/Obrazky/kupel.png",
     "maxAmount": 10,
     "quantity": 0
@@ -82,7 +82,7 @@
   {
     "id": 47,
     "name": "Epilátor na tvár, 1 ks",
-    "price": 2.69,
+    "price": 2.90,
     "image": "/src/assets/Obrazky/epilator.png",
     "maxAmount": 10,
     "quantity": 0
@@ -90,7 +90,7 @@
   {
     "id": 48,
     "name": "Náplasti proti vyrážkam a akné, 36 ks",
-    "price": 2.69,
+    "price": 1.80,
     "image": "/src/assets/Obrazky/naplast.jpg",
     "maxAmount": 10,
     "quantity": 0
