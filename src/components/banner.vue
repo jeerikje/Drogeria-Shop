@@ -4,14 +4,14 @@ export default {
   props: {
     bannerImage: {
       type: String,
-      required: true
+      required: true,
     },
     bannerText: {
       type: String,
-      required: true
-    }
-  }
-}
+      required: true,
+    },
+  },
+};
 </script>
 
 <template>
@@ -40,8 +40,8 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #fff;
+  color: rgba(245, 241, 235, 0.87);
   text-align: center;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 </style>

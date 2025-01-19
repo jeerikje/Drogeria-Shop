@@ -1,7 +1,7 @@
 <script lang="ts">
 export default {
-  name: "Footer"
-}
+  name: "Footer",
+};
 </script>
 
 <template>
@@ -9,20 +9,29 @@ export default {
     <div class="content">
       <div class="wrapper">
         <div class="footer-left">
-          <p>Vaša obľúbená drogéria – kvalitné produkty pre zdravie, krásu a domácnosť.
-            Široký výber kozmetiky, hygieny a doplnkov stravy na jednom mieste. U nás nájdete produkty, ktoré vám pomôžu udržať si krásu, zdravie a pohodlie vo vašom každodennom živote. Od kvalitných pleťových a vlasových prípravkov, cez prírodné produkty, až po zdravé potraviny a vitamíny – všetko, čo potrebujete pre zdravý a šťastný život.</p>
+          <p>
+            Vaša obľúbená drogéria – kvalitné produkty pre zdravie, krásu a
+            domácnosť. Široký výber kozmetiky, hygieny a doplnkov stravy na
+            jednom mieste. U nás nájdete produkty, ktoré vám pomôžu udržať si
+            krásu, zdravie a pohodlie vo vašom každodennom živote. Od kvalitných
+            pleťových a vlasových prípravkov, cez prírodné produkty, až po
+            zdravé potraviny a vitamíny – všetko, čo potrebujete pre zdravý a
+            šťastný život.
+          </p>
         </div>
         <div class="footer-right">
-          <p>Pre viac informácií nás kontaktujte na čísle: <strong>+421 944 425 090</strong></p>
+          <p>
+            Pre viac informácií nás kontaktujte na čísle:
+            <strong>+421 944 425 090</strong>
+          </p>
         </div>
       </div>
-        <div class="bottom">
-          <p>&copy; 2024 Michal Smatana. </p>
-        </div>
+      <div class="bottom">
+        <p>&copy; 2024 Michal Smatana.</p>
+      </div>
     </div>
   </footer>
 </template>
-
 
 <style scoped>
 .footer {
@@ -39,7 +48,7 @@ export default {
   margin: 0 auto;
 }
 
-.wrapper{
+.wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;

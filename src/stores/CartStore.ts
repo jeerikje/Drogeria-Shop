@@ -1,18 +1,18 @@
-import { defineStore } from 'pinia';
-import MuziProducts from '@/stores/MuziProducts.json';
-import ZenyProducts from '@/stores/ZenyProducts.json';
-import detiProducts from '@/stores/detiProducts.json';
-import zdravieProducts from '@/stores/ZdravieProducts.json';
-import zvierataProducts from '@/stores/zvierataProducts.json';
+import { defineStore } from "pinia";
+import MuziProducts from "@/stores/MuziProducts.json";
+import ZenyProducts from "@/stores/ZenyProducts.json";
+import detiProducts from "@/stores/detiProducts.json";
+import zdravieProducts from "@/stores/ZdravieProducts.json";
+import zvierataProducts from "@/stores/zvierataProducts.json";
 
-import darcekyProducts from '@/stores/darceky.json'
-import parfumyProducts from '@/stores/parfumy.json'
-import kozmetikaProducts from '@/stores/kozmetika.json'
-import skincareProducts from '@/stores/skincare.json'
+import darcekyProducts from "@/stores/darceky.json";
+import parfumyProducts from "@/stores/parfumy.json";
+import kozmetikaProducts from "@/stores/kozmetika.json";
+import skincareProducts from "@/stores/skincare.json";
 
 const MAX_CART_QUANTITY = 10;
 
-export const useCartStore = defineStore('CartStore', {
+export const useCartStore = defineStore("CartStore", {
   state: () => ({
     products: {
       muzi: MuziProducts,
@@ -29,12 +29,13 @@ export const useCartStore = defineStore('CartStore', {
   }),
 
   getters: {
-    totalPrice: (state) => state.cart.reduce((sum, item) => sum + item.price * item.quantity, 0),
+    totalPrice: (state) =>
+      state.cart.reduce((sum, item) => sum + item.price * item.quantity, 0),
 
     getProduct: (state) => (type, productId) => {
       const productList = state.products[type];
       return productList?.find((product) => product.id === productId);
-    }
+    },
   },
 
   actions: {
@@ -58,7 +59,7 @@ export const useCartStore = defineStore('CartStore', {
             ...product,
             quantity: 1,
             type,
-            maxAmount: productInProducts.maxAmount - 1
+            maxAmount: productInProducts.maxAmount - 1,
           });
           productInProducts.maxAmount--;
         }
@@ -105,6 +106,6 @@ export const useCartStore = defineStore('CartStore', {
       } else {
         this.removeFromCart(productId, cartItem.type);
       }
-    }
+    },
   },
 });

@@ -8,13 +8,13 @@ export default {
     ...mapState(useCartStore, ["cart", "totalPrice"]),
   },
   methods: {
-    ...mapActions(useCartStore, ["increment", "decrement","removeFromCart"])
+    ...mapActions(useCartStore, ["increment", "decrement", "removeFromCart"]),
   },
 };
 </script>
 
 <template>
-  <p>Celkova cena: {{totalPrice.toFixed(2)}}€</p>
+  <p>Celkova cena: {{ totalPrice.toFixed(2) }}€</p>
   <div v-for="item in cart" :key="item.id" class="cart-item">
     <img :src="item.image" :alt="item.name" class="cart-item-image" />
     <span>{{ item.name }}</span>
@@ -64,7 +64,7 @@ export default {
 .cart-item span:nth-child(2) {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #007BFF;
+  color: #007bff;
   margin-right: 15px;
 }
 
@@ -78,9 +78,9 @@ export default {
 button {
   padding: 5px 10px;
   font-size: 1rem;
-  border: 1px solid #007BFF;
+  border: 1px solid #007bff;
   background-color: #fff;
-  color: #007BFF;
+  color: #007bff;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -88,10 +88,9 @@ button {
 }
 
 button:hover {
-  background-color: #007BFF;
+  background-color: #007bff;
   color: white;
 }
-
 
 p {
   font-size: 1.2rem;
@@ -99,5 +98,4 @@ p {
   margin-top: 150px;
   color: #000000;
 }
-
 </style>

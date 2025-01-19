@@ -2,12 +2,12 @@
 export default {
   name: "Produkty",
   props: {
-    product:{
-      type:Object,
-      required:true
-    }
-  }
-}
+    product: {
+      type: Object,
+      required: true,
+    },
+  },
+};
 </script>
 
 <template>
@@ -20,9 +20,9 @@ export default {
       <span v-else class="out-of-stock">No more left</span>
     </div>
     <button
-        @click="$emit('addToCart', product)"
-        :disabled="product.maxAmount === 0"
-        class="add-to-cart-btn"
+      @click="$emit('addToCart', product)"
+      :disabled="product.maxAmount === 0"
+      class="add-to-cart-btn"
     >
       Add to Cart
     </button>
@@ -32,17 +32,20 @@ export default {
 <style scoped>
 .product-card {
   text-align: center;
-  border: 1px solid #e0e0e0;
-  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
   padding: 1.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+  transition: all 0.3s ease;
 }
 
 .product-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 12px 40px rgba(31, 38, 135, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .product-image {
@@ -50,6 +53,7 @@ export default {
   height: 150px;
   object-fit: contain;
   border-radius: 0.5rem;
+  background-color: transparent;
   margin-bottom: 1rem;
 }
 
@@ -78,22 +82,33 @@ export default {
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   font-weight: bold;
-  background-color: #28a745;
-  color: #fff;
-  border: none;
-  border-radius: 0.25rem;
+  background: rgba(40, 167, 69, 0.8);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
   cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
 }
 
 .add-to-cart-btn:hover {
-  background-color: #218838;
+  background: rgba(40, 167, 69, 0.9);
   transform: scale(1.05);
 }
 
 .add-to-cart-btn:disabled {
-  background-color: #6c757d;
+  background: rgba(108, 117, 125, 0.8);
   cursor: not-allowed;
 }
+
+.products-container h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 
 </style>

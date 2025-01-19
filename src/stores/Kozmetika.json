@@ -1,7 +1,7 @@
 [
   {
     "id": 66,
-    "name": "Maskara Lash Sensational Sky High - Cosmic Black, 7,2 ml",
+    "name": "Maskara Lash Sensational Sky High 7,2 ml",
     "price": 12.95,
     "image": "/src/assets/Obrazky/maskara.png",
     "maxAmount": 3,
@@ -9,7 +9,7 @@
   },
   {
     "id": 67,
-    "name": "Maskara Panorama Volume Million Lashes - Black, 10,5 ml",
+    "name": "Maskara Panorama Volume Million 10,5 ml",
     "price": 13.95,
     "image": "/src/assets/Obrazky/maskara2.png",
     "maxAmount": 5,
@@ -17,7 +17,7 @@
   },
   {
     "id": 68,
-    "name": "Fixačný sprej Infallible 3 Second Setting Mist, 75 ml",
+    "name": "Fixačný sprej Infallible Setting Mist 75 ml",
     "price": 11.95,
     "image": "/src/assets/Obrazky/Mist.png",
     "maxAmount": 5,
@@ -25,7 +25,7 @@
   },
   {
     "id": 69,
-    "name": "Make-up HD Liquid Coverage - 010 Light Beige, 30 ml",
+    "name": "Make-up HD Liquid Coverage Light 30 ml",
     "price": 7.95,
     "image": "/src/assets/Obrazky/ksicht.png",
     "maxAmount": 3,
@@ -33,7 +33,7 @@
   },
   {
     "id": 70,
-    "name": "Farba na obočie Brow Tint - tmavohnedá, 17 ml",
+    "name": "Farba na obočie Brow Tint tmavohnedá 17 ml",
     "price": 9.95,
     "image": "/src/assets/Obrazky/farba.png",
     "maxAmount": 7,

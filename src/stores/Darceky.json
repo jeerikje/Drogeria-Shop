@@ -1,7 +1,7 @@
 [
   {
     "id": 61,
-    "name": "Darčekové balenie Elseve Glycolic Gloss, 1 ks",
+    "name": "Darčekové balenie Elseve Glycolic Gloss 1 ks",
     "price": 12.95,
     "image": "/src/assets/Obrazky/gloss.png",
     "maxAmount": 7,
@@ -9,7 +9,7 @@
   },
   {
     "id": 62,
-    "name": "Darčekové balenie signature black for Man, 1 ks",
+    "name": "Darčekové balenie signature black 1 ks",
     "price": 13.45,
     "image": "/src/assets/Obrazky/balenie.png",
     "maxAmount": 6,
@@ -17,7 +17,7 @@
   },
   {
     "id": 63,
-    "name": "Darčeková súprava Hydro Boost, 1 ks",
+    "name": "Darčeková súprava Hydro Boost 1 ks",
     "price": 24.95,
     "image": "/src/assets/Obrazky/darcekovasuprava.png",
     "maxAmount": 6,
@@ -25,7 +25,7 @@
   },
   {
     "id": 64,
-    "name": "Darčekové balenie Skin Box, 1 ks",
+    "name": "Darčekové balenie Skin Box 1 ks",
     "price": 13.95,
     "image": "/src/assets/Obrazky/darcekovebalenie.png",
     "maxAmount": 5,
@@ -33,7 +33,7 @@
   },
   {
     "id": 1,
-    "name": "Darčekové balenie Francovkový set masážny, 1 ks",
+    "name": "Darčekové balenie Francovkový set 1 ks",
     "price": 8.95,
     "image": "/src/assets/Obrazky/darcekovyset.png",
     "maxAmount": 1,

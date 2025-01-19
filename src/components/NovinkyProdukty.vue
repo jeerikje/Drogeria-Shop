@@ -2,12 +2,12 @@
 export default {
   name: "NovinkyProdukty",
   props: {
-    product:{
+    product: {
       type: Object,
-      required: true
-    }
-  }
-}
+      required: true,
+    },
+  },
+};
 </script>
 
 <template>
@@ -20,9 +20,9 @@ export default {
       <span v-else class="out-of-stock">No more left</span>
     </div>
     <button
-        @click="$emit('addToCart', product)"
-        :disabled="product.maxAmount === 0"
-        class="add-to-cart-btn"
+      @click="$emit('addToCart', product)"
+      :disabled="product.maxAmount === 0"
+      class="add-to-cart-btn"
     >
       Add to Cart
     </button>
@@ -30,7 +30,6 @@ export default {
 </template>
 
 <style scoped>
-
 .products-container h1 {
   font-size: 2.5rem;
   margin-bottom: 30px;
@@ -43,11 +42,19 @@ export default {
 }
 
 .product-card {
-  background: linear-gradient(135deg, #9c70af,#5a30a5, #eac3f5, #5a30a5,#eac3f5);
-  border: 2px solid #00f4f4;
+  background: linear-gradient(
+      135deg,
+      #ead1dc,
+      #d5a6bd,
+      #c27ba0,
+      #a64d79,
+      #4c1130
+  );
   border-radius: 16px;
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
@@ -100,7 +107,9 @@ export default {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: background 0.3s ease, transform 0.3s ease;
+  transition:
+    background 0.3s ease,
+    transform 0.3s ease;
 }
 
 .add-to-cart-btn:hover {

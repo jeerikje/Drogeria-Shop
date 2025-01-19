@@ -26,7 +26,7 @@
   {
     "id": 28,
     "name": "Zubná pasta s Sensodyne, 150 ml",
-    "price": 5.50,
+    "price": 5.5,
     "image": "/src/assets/Obrazky/pasta2.png",
     "maxAmount": 10,
     "quantity": 0
@@ -58,7 +58,7 @@
   {
     "id": 32,
     "name": "Maska na spanie Cozy Frozy Me Time, 1 ks",
-    "price": 3.70,
+    "price": 3.7,
     "image": "/src/assets/Obrazky/maskanaspanie.png",
     "maxAmount": 10,
     "quantity": 0
@@ -74,7 +74,7 @@
   {
     "id": 34,
     "name": "Kapsuly Komplex na vitálne vlasy, 26 g",
-    "price": 2.60,
+    "price": 2.6,
     "image": "/src/assets/Obrazky/kapsuly.png",
     "maxAmount": 10,
     "quantity": 0
